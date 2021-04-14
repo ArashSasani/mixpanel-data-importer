@@ -1,0 +1,14 @@
+{
+  "name": "data-importer",
+  "version": "1.0.0",
+  "description": "data importer for your already logged db data into Mixpanel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arash Sasani",
+  "license": "ISC",
+  "dependencies": {
+    "mixpanel": "^0.13.0"
+  }
+}
