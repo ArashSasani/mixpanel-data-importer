@@ -47,7 +47,7 @@ const sendEvent = async (eventName, item) => {
 const batchSend = async (eventName, counter = 0) => {
   if (sampleData.length > counter) {
     //to show the event on insights tab of Mixpanel, you need to first send a dummy data for the event
-    //or you skip this part
+    //or you can skip this part
     if (isEventNew) {
       mixpanel_importer.track(eventName, {
         user_id: 0,
@@ -61,8 +61,8 @@ const batchSend = async (eventName, counter = 0) => {
     counter++;
     logInfo("counter: " + counter);
 
-    //you can sleep the sending process for each item
-    //if you have any restrictions for your Mixpanel account
+    //you can pause the sending process for each event item
+    //in case, you have any restrictions for your Mixpanel account
     await sleep(sleepTime);
 
     batchSend(eventName, counter);
