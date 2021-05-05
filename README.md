@@ -3,7 +3,7 @@ A Mixpanel data importer **Node** app for the data that you already have and you
 as events.
 
 ## Current acceptable inputs:
-1. data that you have in your database or filesystem which you can export in json as a json file.
+1. data that you have in your database or filesystem which you can export as a json file.
 2. data you can retrieve from any API endpoint.
 
 ## You only need to:
