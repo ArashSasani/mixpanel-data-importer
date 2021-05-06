@@ -3,12 +3,12 @@ A Mixpanel data importer **Node** app for the data that you already have and you
 as events.
 
 ## Current acceptable inputs:
-1. data that you have in your database or filesystem which you can export as a json file.
-2. data you can retrieve from any API endpoint.
+1. [option 1]data that you have in your database or filesystem which you can export as a json file.
+2. [option 2]data you can retrieve from any API endpoint.
 
 ## You only need to:
-1. [option A]export your data which you want to import to Mixpanel as an event as a **json file**. Please take a look at [data.json](https://github.com/ArashSasani/data-importer/blob/master/data.json).
-2. [option B]call the API endpoint and get your event data as **json format**
+1. [option 1]export your data which you want to import to Mixpanel as an event as a **json file**. Please take a look at [data.json](https://github.com/ArashSasani/data-importer/blob/master/data.json) and [this module](https://github.com/ArashSasani/data-importer/blob/master/services/fileSystemClient.js).
+2. [option 2]call the API endpoint and get your event data as **json format**. please take a look at [this module](https://github.com/ArashSasani/data-importer/blob/master/services/apiClient.js).
 
 *The rest is ready* :)
 Just call **npm start**.
