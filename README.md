@@ -16,3 +16,7 @@ as events.
 Just call **npm start**.
 
 Check the [Mixpanel documenation](https://developer.mixpanel.com/docs/javascript) if you want to understand the code better.
+
+## What's next?
+Implementing a GUI probably by using Electron and add more features.
+Any one interested in building this with me, please feel free to join :)
